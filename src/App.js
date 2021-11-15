@@ -10,7 +10,6 @@ function App() {
   return (
     <div style={{ maxWidth: "30rem", margin: "4rem auto" }}>
       <Router>
-        <h1 className="text-center">User List</h1>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/add" exact element={<AddUser />} />
